@@ -40,7 +40,7 @@ The third step is to compute probabilities of pixels. Multiplying candidate pixe
 
 ![Step 3][step-3]
 
-**4. Query cells with threshold **
+**4. Query cells with threshold**
 
 The fourth step is to get pixels whose probabilities are no less than the threshold: generate the mask from comparison computations, then extract pixels of value one in the mask, and finally multiply these pixels with the original raster of probability values to get the qualified pixels as the output results. This step prunes those pixels having probabilities lower than the threshold.
 
