@@ -1,6 +1,6 @@
 [workflow-rh]: images/workflow-rh.png "Workflow for Relative Humidity Datasets"
 [workflow-aerosol]: images/workflow-aerosol.png "Workflow for Aerosol Datasets"
-[workflow-integration]: images/workflow-integration.png "Workflow for Integration"
+[workflow-integration]: images/workflow-integrate.png "Workflow for Integration"
 
 # US Haze Effect Analysis
 
