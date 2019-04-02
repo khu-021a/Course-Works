@@ -4,7 +4,7 @@ These are past academic course works during my graduate time. All of them are sp
 
 ---
 
-** Table of Contents **
+**Table of Contents**
 
 * MDOW Hillshade
 * US Haze Effect Analysis
