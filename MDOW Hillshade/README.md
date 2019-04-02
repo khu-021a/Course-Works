@@ -3,7 +3,7 @@
 
 # MDOW Hillshade
 
-MDOW hillshade is actually the __M__ulti-__D__irectional __O__blique __W__eighted hillshade. This is an extensive method based on the original hillshade approach to generate better hillshade from DEM (digital elevation model) datasets. The MDOW hillshade is created by combing one initial hillshade and four additional ones generated from different azimuths (225°, 270°, 315°, and 360°). The code is implemented according to the paper "[A Methodology for Creating Analytical Hillshading by Combining Different Lighting Directions](https://www.researchgate.net/publication/237548702_A_METHODOLOGY_FOR_CREATING_ANALYTICAL_HILL-SHADING_BY_COMBINING_DIFFERENT_LIGHTING_DIRECTIONS)" and with the help from ArcGIS document about [hillshade](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-hillshade-works.htm), [slope](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-slope-works.htm) and [aspect](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-aspect-works.htm).
+MDOW hillshade is actually the __M__ ulti-__D__ irectional __O__ blique __W__ eighted hillshade. This is an extensive method based on the original hillshade approach to generate better hillshade from DEM (digital elevation model) datasets. The MDOW hillshade is created by combing one initial hillshade and four additional ones generated from different azimuths (225°, 270°, 315°, and 360°). The code is implemented according to the paper "[A Methodology for Creating Analytical Hillshading by Combining Different Lighting Directions](https://www.researchgate.net/publication/237548702_A_METHODOLOGY_FOR_CREATING_ANALYTICAL_HILL-SHADING_BY_COMBINING_DIFFERENT_LIGHTING_DIRECTIONS)" and with the help from ArcGIS document about [hillshade](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-hillshade-works.htm), [slope](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-slope-works.htm) and [aspect](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-aspect-works.htm).
 
 ---
 
@@ -16,7 +16,7 @@ MDOW hillshade is actually the __M__ulti-__D__irectional __O__blique __W__eighte
 Make sure there are Python 2.7+ (with [futures](https://pypi.org/project/futures/) installed) / Python 3.4+, NumPy, SciPy, GDAL, Rasterio and Click (for command line) in the environment.
 
 ## API
-** mdow.run **
+**mdow.run**
 
 run(*in_path*, *out_path*, *azimuth*, *altitude*)
 
@@ -49,8 +49,11 @@ mdow.run(in_path, out_path, azimuth, altitude)
 ```
 
 ## Example
+
 **MDOW Hillshade**
+
 ![MDOW Hillshade Example][mdow-hillshade]
 
-** ArcGIS Hillshade for Comparison **
+**ArcGIS Hillshade for Comparison**
+
 ![ArcGIS Hillshade Example][arcgis-hillshade]
