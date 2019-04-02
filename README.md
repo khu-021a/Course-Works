@@ -2,8 +2,6 @@
 
 These are past academic course works during my graduate time. All of them are specially tidied up originally from my individual code base.
 
----
-
 **Table of Contents**
 
 * MDOW Hillshade
