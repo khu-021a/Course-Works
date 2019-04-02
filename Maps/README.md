@@ -9,8 +9,6 @@
 
 This repository contains three maps selected from past cartographic works.
 
----
-
 ## Previews
 
 ### The Africa Map
@@ -20,15 +18,19 @@ This repository contains three maps selected from past cartographic works.
 ### Topolographic Quadrangle of McKee, Kentucky
 
 **Flat Version**
+
 ![Topo Map - Flat][topo-map-flat]
 
 **Contour Version**
+
 ![Topo Map - Contour][topo-map-contour]
 
 **Shaded Relief Version**
+
 ![Topo Map - Shaded Relief][topo-map-shade]
 
 **Orthoimage Version**
+
 ![Topo Map - Orthoimage][topo-map-ortho]
 
 ### The Map Book of UK
