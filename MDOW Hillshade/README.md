@@ -5,8 +5,6 @@
 
 MDOW hillshade is actually the __M__ ulti-__D__ irectional __O__ blique __W__ eighted hillshade. This is an extensive method based on the original hillshade approach to generate better hillshade from DEM (digital elevation model) datasets. The MDOW hillshade is created by combing one initial hillshade and four additional ones generated from different azimuths (225°, 270°, 315°, and 360°). The code is implemented according to the paper "[A Methodology for Creating Analytical Hillshading by Combining Different Lighting Directions](https://www.researchgate.net/publication/237548702_A_METHODOLOGY_FOR_CREATING_ANALYTICAL_HILL-SHADING_BY_COMBINING_DIFFERENT_LIGHTING_DIRECTIONS)" and with the help from ArcGIS document about [hillshade](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-hillshade-works.htm), [slope](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-slope-works.htm) and [aspect](http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-aspect-works.htm).
 
----
-
 ## Features
 * Better visual effects on generated hillshade
 * Multiple threads for performance acceleration
