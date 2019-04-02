@@ -33,16 +33,16 @@ FC+Softmax | | 2048 | 48
 **Identity Block Structure**
 
 No. | Layers | Layer Attributes
-:---: | :---: | :---: | :---:
+:---: | :---: | :---:
 1 | Conv + BN | K=1, S=1, P=1, F=f/2
-2 | ELU |
+2 | ELU | 
 3 | Conv + BN | K=1, S=1, P=1, F=f/2
-4 | ELU |
+4 | ELU | 
 5 | Conv + BN | K=1, S=1, P=1, F=f/2
-6 | ELU |
+6 | ELU | 
 7 | Conv + BN | K=1, S=1, P=1, F=f/2
 8 | Add | Output of Layer 7 and Input Layer
-9 | ELU |
+9 | ELU | 
 
 *NOTE: K=kernel, S=stride, P=padding, F=filter number, f=initial filter number*
 
